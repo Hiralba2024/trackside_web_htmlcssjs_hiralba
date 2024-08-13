@@ -1,0 +1,29 @@
+@keyframes slideTrain {
+    0% { transform: translateY(130%); }
+    100% { transform: translatey(0%); }
+  }
+  
+  .seat-train {
+    animation: slideTrain 5s  ease-in-out;
+  }
+  
+  @keyframes slideUp{
+    from{transform: translateY(0%);}
+    to{transform: translateY(-130%);}
+  }
+  .seat-train.slide-up {
+    animation: slideUp 5s forwards;
+}
+
+@keyframes color{
+  0%{background-color: yellow;}
+  25%{background-color: red;}
+  75%{background-color: green;}
+  100%{background-color: yellow;}
+}
+.light1,
+.light2,
+.light3,
+.light4{
+  animation: color 2s infinite;
+}

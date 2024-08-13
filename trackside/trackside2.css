@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.main3{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.seat-train{
+    position: absolute;
+}
+.train{
+    width: 220px;
+    background-color: #fff;
+    border: 1px solid red;
+    border-top-left-radius: 160% 25%;
+    border-top-right-radius: 160% 25%;
+    border-bottom-left-radius: 40% 30%;
+    border-bottom-right-radius: 40% 30%;
+}
+.columns{
+    padding: 20% 18.5% 3%;
+    display: flex;
+    gap: 25px;
+}
+.column1, .column2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.book-btn{
+    text-align: center;
+    padding: 4%;
+}
+.book{
+    padding: 3% 8%;
+    background-color: rgb(252, 186, 6);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rail-track{
+    position: relative;
+}
+.rail-track img{
+    height: 100vh;
+}
+.table{
+    position: relative;
+}
+.table-seat .seat{
+    position: absolute;
+    top: 19%;
+    left: -16%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 75px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.chairs{
+    position: relative;
+    display: flex;
+    gap: 2px;
+   
+}
+.chairs .chair1, .chairs .chair2{
+    border: 1px solid;
+    border-radius: 6px;
+    width: 27.5px;
+    height: 50px;
+}
+.red-line{
+    position: absolute;
+    top: 7%;
+    left: 97%;
+    width: 15px;
+    height: 530px;
+    border-left: 1px solid red;
+    border-radius: 25%;
+}
+.red-line1{
+    position: absolute;
+    border-right: 1px solid red;
+    border-radius: 25%;
+    width: 15px;
+    height: 530px;
+    top: 7%;
+    left: -3.5%;
+}
+.black-line1{
+    position: absolute;
+    border-right: 1px solid black;
+    border-radius: 90%;
+    width: 25px;
+    height: 540px;
+    top: 6%;
+    left: -4%;
+}
+.black-line{
+    position: absolute;
+    border-left: 1px solid black;
+    border-radius: 90%;
+    width: 25px;
+    height: 540px;
+    top: 6%;
+    left: 93%;
+}
+.black-top{
+    position: absolute;
+    top: 0;
+    left: 20%;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+    width: 130px;
+    height: 20px;
+}
+.lights{
+    display: flex;
+    gap: 45px;
+    position: absolute;
+    top: -1.5%;
+    left: 28%;
+}
+.light1, .light2{
+    width: 25px;
+    height: 12px;
+    background-color:  rgb(252, 186, 6);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.lights1{
+    display: flex;
+    gap: 135px;
+    position: absolute;
+    top: -4%;
+    left: 10%;
+}
+.light3{
+    height: 25px;
+    width: 20px;
+    background-color:  rgb(252, 186, 6);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+}
+.light4{
+    height: 25px;
+    width: 20px;
+    background-color:  rgb(252, 186, 6);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+}

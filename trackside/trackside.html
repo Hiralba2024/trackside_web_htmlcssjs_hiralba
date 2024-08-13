@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trackside Tadka</title>
+  <link rel="stylesheet" href="trackside.css">
+
+  <style>
+    /* Modal Styles */
+.modal, .modal1 {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw; 
+  height: 100vh; 
+  overflow: hidden; 
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+/* Modal Content Styles */
+.modal-content, .modal-content1 {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  background-color: transparent; 
+}
+
+/* Iframe Styles */
+.modal-content iframe, .modal-contenet1 iframe {
+  width: 100%; 
+  height: 100%; 
+  border: none; 
+}
+
+  </style>
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="main1">
+      <div class="image-container">
+        <img src="Back-TTST.jpg" alt="back-image">
+      </div>
+      <div class="booking-form">
+        <div class="navbar">
+          <div class="menu">
+            <p> <span><img src="menuicon.png" alt="menu-icon"></span>Menu</p>
+          </div>
+          <div class="nav">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Reserved Your Table</a>
+                  <a href="#">ABOUT US</a>
+                  <a href="#">MEMORIES</a>
+                  <a href="#">EVENT</a>
+                  <a href="#">CAREERS</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="book-table">
+          <div class="table-book">
+            <div class="head">
+              <p>RESERVED YOUR TABLE</p>
+            </div>
+            <div class="user-input">
+              <div class="name">
+                <select name="title" id="title" required>
+                  <option value="Mrs."> MRS.</option>
+                  <option value="Mr."> MR.</option>
+                  <option value="Miss"> MISS</option>
+                  <option value="Ms."> MS.</option>
+                </select>
+                <input type="text" id="name" class="enter-name" placeholder="Enter Your Name" required>
+              </div>
+              <div class="otp">
+                <input type="tel" id="mobile-no" class="mobile-no" value="+91" required>
+                <input type="button" class="get-otp" value="Get OTP">
+              </div>
+              <div class="date">
+                <input type="date" id="book-date" class="book-date" required>
+              </div>
+              <div class="time">
+                <input type="text" id="timeslots" class="timeslots" placeholder="timeslots" required>
+              </div>
+              <div class="person">
+                <input type="number" id="person-no" class="person-no" placeholder="persons" required>
+              </div>
+              <div class="clear-submit">
+                <input type="button" class="clear-btn" value="Clear" id="clear-btn">
+                <div class="vl"></div>
+                <input type="button" class="submit-btn" value="Submit" id="submit-btn">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <iframe src="trackside1.html" style="width:100vw; height: 100vh;" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <div class="modal1" id="myModal1">
+    <div class="modal-content1">
+      <iframe src="trackside2.html" style="width: 100vw; height: 100vh;" frameborder="0"></iframe>
+    </div>
+  </div>
+
+<script src="t.js"></script>
+
+</body>
+</html>

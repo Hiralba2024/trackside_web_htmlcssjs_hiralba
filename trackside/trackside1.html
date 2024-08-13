@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trackside1</title>
+    <link rel="stylesheet" href="trackside1.css">
+</head>
+<body>
+    <div class="main2" id="main2">
+        <div class="parts">
+          <div class="part1">
+            <div class="rectangle-part">
+              <div class="rectangle" onclick="openModal1()">Train Inside</div>
+              <div class="rectangle">Loco Lounge</div>
+            </div>
+            <div class="square-part">
+              <div class="square">Train Outside</div>
+            </div>
+          </div>
+          <div class="part2">
+            <div class="rectangle3">
+              <div class="rectangle"></div>
+              <div class="rectangle"></div>
+              <div class="rectangle"></div>
+            </div>
+            <div class="rectangle1">
+              <div class="rectangle">Cafeteria</div>
+            </div>
+            <div class="circles">
+              <div class="circle">Circle</div>
+            </div>
+          </div>
+          <div class="part3">
+            <div class="one-square">Gazebo One</div>
+            <div class="two-square">Gazebo Two</div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        // Function to communicate with the parent window
+        function openModal1() {
+            window.parent.postMessage('openModal1', '*');
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.image-container img {
+    object-fit: cover;
+    width: 100%;
+}
+.main1{
+    height: 187vh;
+}
+.image-container{
+    position: relative;
+}
+.booking-form {
+    position: absolute; 
+    top: 114%;
+    width: 100%;
+    padding: 1% 5%;
+    box-sizing: border-box;  
+}
+.booking-form .navbar{
+    background-color: rgb(252, 186, 6);
+    border-radius: 5px;
+}
+.navbar{
+    position: relative;
+}
+.navbar .menu p{
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    padding: 0.2%;
+}
+.navbar .menu p span img{
+    width: 25px;
+}
+.navbar .nav{
+    padding: 0.6% 2%;
+    background-color: #fff;
+    position: absolute;
+    top: 6%;
+    left: 0.3%;
+    width: 92%;
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav ul li{
+    display: flex;
+    gap: 60px;
+}
+.book-table{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 2%;
+}
+.table-book{
+    border: 3px solid rgb(252, 186, 6);
+    padding: 2% 1%;
+    border-radius: 7px;
+}
+.head p{
+    color: rgb(252, 186, 6);
+    font-size: 25px;
+    text-align: center;
+}
+
+.name, .otp, .date, .time, .person{
+    margin-top: 5%;
+    border-bottom: 2px solid grey;
+    border-radius: 15px;
+}
+.name{
+    position: relative;
+}
+.name select{
+    position: absolute;
+    left: 3%;
+    top: 29%;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.enter-name{
+    padding: 5% 25% 0;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+}
+.mobile-no{
+    position: relative;
+    width: 100%;
+    padding: 5% 4% 0;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+}
+.get-otp{
+    position: absolute;
+    left: 52%;
+    margin-top: 0.6%;
+    font-size: 15px;
+    color:  rgb(252, 186, 6);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.book-date, .timeslots, .person-no{
+    padding: 5% 4% 0;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+}
+.clear-submit{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px;
+    padding: 12% 0 1% 0;
+}
+.clear-submit .vl{
+    border-left: 3px solid rgb(252, 186, 6);
+    height: 40px;
+    margin-top: 5%;
+}
+.clear-btn, .submit-btn{
+    padding: 5% 2% 0;
+    font-size: 20px;
+    color:  rgb(252, 186, 6);
+    border: none;
+    cursor: pointer;
+}
+
